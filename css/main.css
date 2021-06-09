@@ -401,7 +401,7 @@ padding: 5px;
     background: #009970;
     border-radius: 4px;
     color: #fff;
-    width: 27%;
+    width: 30%;
 }
 .main-sec .main-title{
     font-weight: 700;
@@ -420,8 +420,7 @@ padding: 5px;
     color: #fff;
     border-radius: 50px;
     transition: all ease-in-out 0.4s;
-    margin: 10px auto;
-    margin-left: 60px;
+    margin: 10px 0 5px 55px;
 }
 .main-sec .btn3 i{
     font-size: 14px;}
@@ -766,7 +765,8 @@ line-height: 2;
     margin: 7px  10px;
     top: -160px;
     overflow: hidden;
-float: right;}
+float: right;
+}
 .teste-main .first-teste,.second-teste{
     position: relative;
     padding: 30px 30px 0 30px;
@@ -961,7 +961,7 @@ margin-bottom: 3px ;
 }
 .location .location-info i{
     display: inline-block;
-background-color: #080;
+background-color: #009970;
 color: #fff;
 width: 40px;
 height: 40px;
@@ -1008,18 +1008,21 @@ form{
     text-align: center;
 }
 .form-info input[type=submit]{
-    width: 25%;
-    text-align: center;
-    margin: 15px auto;
-    cursor: pointer;
-    color: #fff;
     background-color: #009970;
-    border-radius: 15px;
+    width: 25%;
+    display: inline-block;
+    padding: 6px 30px 8px 25px;
+    color: #fff;
+    border-radius: 30px;
+    transition: all ease-in-out 0.4s;
+    margin: 10px 0 5px 55px;
     font-size: 17px;
-    padding: 4px;
+    font-weight: 500;
+    height: 40px;
 }
 .form-info input[type=submit]:hover{
-    background-color: rgb(9, 139, 68);
+    background-color: #fff;
+    color: #333;
 }
 /*footer section*/
 .links{
@@ -1069,7 +1072,7 @@ justify-content: space-between;
 }
 .links4{
     width: 30%;
-    margin: 10px ;
+    margin: 17px ;
     margin-left: 30px;
 }
 .links ul{

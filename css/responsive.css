@@ -104,10 +104,16 @@ color: #fff;   }
     font-weight: bold;
 }
 .main-sec{
-    max-width: 100% !important;
+    max-width: 75% ;
+    margin: 10px auto;
 }
 .first-sec{
-width: 100% !important;
+width: 70% ;
+margin: 10px auto;
+}
+.services .service .serv {
+    width: 70%;
+margin: 15px auto;
 }
 .sec-4{
     display: flex;
@@ -154,18 +160,25 @@ width: 100% !important;
  .gallery img {
      margin: 5px;
  } 
- .testemonial .teste-title{
-     width: 92%;
+ .teste-title{
+     width: 95%;
  }
  .testemonial .teste-main{
-     width: 98%;
+     display: flex;
+     flex-wrap: wrap;
+     width: 90%;
+     top: 1%;
+     
  }
- .testemonial .control-test{
-     width: 100%;
+ 
+ 
+ .teste-main .first-teste{
+     width: 90%;
+     margin: 20px auto;
+     height: auto;
  }
- .first-teste{
-     width: 50%;
-     margin: 5px;
+ .scond-teste,.list-non{
+     display: none;
  }
  .teste-main .first-teste p {
     font-size: 13px;
@@ -188,8 +201,8 @@ font-style: italic;
      .team .members{
             width: 100%;
         }
-        .member{
-            width: 48%;
+      .members .member{
+            width: 98%;
         }
         .member span:first-of-type{
             font-weight: bold;
@@ -290,7 +303,7 @@ font-style: italic;
                 width: 38%;
             }
             .links input{
-                width: 80%;
+                width: 70%;
                 margin-left: 5px;
                 padding: 8px;
                 height: 36px;
